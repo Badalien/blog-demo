@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+}
+
+body {
+	display: flex;
+}
+
+.header {
+	font-size: 24px;
+	font-family: Arial;
+	color: #CCC;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.text-block {
+	font-size: 24px;
+	font-family: 'Liberation Serif';
+	color: #CCC;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+}
