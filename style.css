@@ -5,27 +5,58 @@
 }
 
 body {
-	display: flex;
+	display: block;
 }
 
 .header {
 	font-size: 24px;
 	font-family: Arial;
 	color: #CCC;
+	width: 100%;
+	height: 100px;
+	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+}
+
+.blog-title {
+	padding: 20px 0;
+	margin: 10px;
 }
 
 .text-block {
-	font-size: 24px;
+	width: 100%;
+	font-size: 16px;
 	font-family: 'Liberation Serif';
 	color: #CCC;
+	display: flex;
 	justify-content: center;
-	align-items: center;
+	margin: 20px 10px;	
+}
+
+.blog-text {
+	
 }
 
 .footer {
-	flex-direction: row;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+	color: #CCC;
+	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+}
+
+.button {
+	display: flex;
+	justify-content: flex-end;
+}
+
+input {
+	font-size: 14px;
+	font-family: 'Liberation Serif';
+	color: #CCC;
+}
+
+.commentary-field {
+	width: 100%;
 }

@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<title> My Blog </title>
 	<link rel="stylesheet" type="text/css" href="style.css">	
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -20,18 +21,19 @@
 		<div class="add-comment">
 			<div class="text-field">
 				<form>
-					<input type="text" name="Write your comment here" id="comment-text">
+					<span>Name: </span><br>
+  					<input type="text" id="name"><br>
+					<p> Comments <br>
+					<textarea name="comment" cols="40" rows="3" id="text"></textarea></p>
 				</form>
 			</div>
 			<div class="button">
 				<form>
-					<input type="button" name="Add comment" id="add-button">
-				</form>>
+					<input type="submit" value="Add comment" id="add-button">
+				</form>
 			</div>
-		</div>
-		<div class="read-comments">
-			
-		</div>
+			<div class="commentary-field" id="read-comments"></div>
+		</div>	
 	</div>
 </body>
 </html>
